@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato:ital,wght@0,300;0,400;0,900;1,400;1,700&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(248, 237, 235);
+}
+
+
+/************************************** HOME *********************************************/
+
+
+.navbar{
+    background: rgb(252,213,206);
+    background: radial-gradient(circle, rgba(252,213,206,1) 20%, rgba(255,229,217,1) 50%, rgba(254,197,187,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100;
+}
+
+.navbar-nav{
+    margin-right: 30px;
+}
+
+.navbar-brand{
+    font-family: Alex Brush;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.nav-link{
+    font-family: Lato;
+    font-size: 25px;
+
+}
+
+.div-h2{
+    background-color: #F8EDEB ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h2-main{
+    font-family: Lato;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-boot{
+    background-color: #E8E8E4;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+}
+
+
+.carousel-inner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#div__home__parrafo{
+    width: 60%;
+}
+
+
+
+#div__home__parrafo p{
+    font-family: Lato;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.footer{
+    background-color: #FEC89A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.par-right{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.par-left{
+    padding-top: 10px;
+    text-align: left;
+}
+
+
+/********************************* SERVICIOS ***********************************/
+
+
+.card-group h5{
+    text-align: center;
+}
+
+
+.card-group iframe{
+    padding-left: 40px;
+}
+
+/******************************************* TESTIMONIOS *****************************/
+
+.div-testimonios1{
+    background-color: #E8E8E4;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+}
+
+.cardtest{
+    margin-left: 60px;
+}
+
+
+/************************************* SOBRE MI *************************************/
+
+#carouselExampleSlidesOnly{
+    width: 350px;
+}
+
+#div__sobremi__parrafo{
+    width: 65%;
+    margin-left: 10px;
+}
+
+#div__sobremi__parrafo p{
+    font-size: 35px;
+}
+
+
+/*************************************** CONTACTO ****************************************/
+
+.div-contacto{
+    background-color: #E8E8E4;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+}
+
+
+#div__contacto__img{
+    width: 450px;
+}
+
+#div__contacto__img img{
+    width: 450px;
+}
+
+svg{
+    max-width: 200%;
+
+}
+
+.div-formulario{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+/*********************************media querie mobile ***********************************/
+
+@media only screen  and (max-width: 320px) {
+
+    .navbar-nav{
+        margin-right: 5px;
+    }
+    
+    .navbar-brand{
+        font-family: Alex Brush;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .card-group iframe{
+        padding-left: 5px;
+        width: 200px;
+    }
+
+    #div__sobremi__parrafo p{
+        font-size: 20px;
+    }
+
+    .div-formulario{
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+
+
+}
